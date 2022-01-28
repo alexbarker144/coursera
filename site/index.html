@@ -1,11 +1,67 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Hello Coursera!</title>
+	<title>Hello World!</title>
+	<link rel="stylesheet" href="styles.css">
+<style>
+* {
+	box-sizing: border-box;
+}
+/* paragraph format */
+	div { 
+		/*background-color: beige;*/
+	}
+	p {
+		width: 50%;
+		/*border: 1px solid black;*/
+		float: left;
+		padding: 10px;
+	}
+/* heading format */
+	h1 {
+		/*color: red;*/
+		font-size:  46px;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+/* element with id="Main Point" */
+	#mainPoint {
+		font-size:  20px;
+		font-weight: bold;
+		background-color: red;
+		color: white;
+		opacity: .6;
+	}
+
+	a:hover div:nth-child(2) {
+		font-size:  24px;
+	}
+/*paragraphs*/
+	#p1 {
+		/*background-color: red;*/
+	}
+	#p2 {
+		/*background-color: blue;*/
+	}
+	#p3 {
+		background-color: green;
+	}
+	#p4 {
+		background-color: purple;
+	}
+/*footer*/
+	#footer {
+		clear: left;
+	}
+</style>
 </head>
 <body>
-<h1>Hello Coursera! It's a beautiful snowy night!</h1>
+<h1 id="#top">Subheading 1</h1>
+<p id="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut varius nisi turpis, vitae ornare nunc consectetur ut. Maecenas blandit pretium tincidunt. Fusce nec pellentesque dolor. Sed tristique mollis venenatis. Morbi sagittis turpis molestie metus mattis elementum. Phasellus laoreet nisl sed felis fermentum fermentum. Duis ultrices maximus volutpat. Curabitur ornare nec elit condimentum posuere. Nullam diam velit, luctus ut efficitur eu, dapibus eget lacus. In hac habitasse platea dictumst.</p>
+<br>
+<p id="p2">Sed id elit imperdiet tellus tincidunt mollis. Pellentesque a rhoncus felis, id volutpat neque. Proin ultricies accumsan mattis. Donec non odio lectus. Curabitur et erat augue. Sed pulvinar rutrum eros sodales consequat. Aenean blandit elit elementum tristique commodo.</p>
+<br>
 </body>
+<footer id="footer"><a href="#top">Back to Top</a></footer>
 </html>
