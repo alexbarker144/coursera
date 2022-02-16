@@ -1,0 +1,90 @@
+/****** OVERALL STYLES ******/
+
+body {
+    font-size: 16px;
+    color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/****** HEADER ******/
+
+#header-nav {
+    background-color: #808080;
+    border-radius: 0;
+    border: 3px solid #000;
+    margin: 0;
+    padding: 15px 0px;
+}
+
+
+/* navbar */
+
+.navbar-brand {
+    padding-top: 0px;
+}
+.navbar-brand h1 {
+    color: #000;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    line-height: .5;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+/* collabsable menu */
+
+#nav-list {
+    margin-top: 10px;
+}
+#nav-list a {
+    background-color: #808080;
+    color: #000;
+    text-align: center;
+}
+#nav-list a:hover {
+    background-color: #fff;
+    color: #000;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #000;
+}
+
+/****** END HEADER ******/
+
+/****** OUR MENU ******/
+
+.category-tile {
+    /*border: 2px solid #000;*/
+    background-color: #808080;
+    margin: 0 auto 15px;
+}
+.category-tile div {
+    padding: 10px;
+}
+#category-title {
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+/****** END MENU ******/
+
+/*************************** Responsive Framework *************************/
+
+/****** Desktop (MD and LG) ******/
+@media (min-width: 992px) {
+
+}
+
+
+/****** Tablet (SM) ******/
+@media (min-width: 768px) and (max-width: 991.9px) {
+
+}
+
+
+/****** Mobile (XS) ******/
+@media (max-width: 767.9px) {
+
+}
